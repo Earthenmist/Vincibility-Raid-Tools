@@ -1,0 +1,16 @@
+CREDITS
+
+No credit is required for this sound pack.
+
+Optional credit line:
+  Voice alerts generated with Piper from public-domain LibriVox-trained
+  voices; original sound effects generated for this addon with OpenAI Codex.
+
+Voice provenance:
+  Female: Piper en_GB-cori-medium, trained from scratch on public-domain
+  LibriVox recordings.
+  Male: Piper en_US-norman-medium, trained from scratch on public-domain
+  LibriVox recordings.
+
+No third-party sound-effect samples were used. Bam, sword echo, and bike horn
+were synthesized procedurally for this pack.

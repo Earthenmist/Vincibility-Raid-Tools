@@ -1,0 +1,31 @@
+REDISTRIBUTION AND PROVENANCE NOTICE
+Generated 4 October 2026
+
+You may use, copy, modify, publish, and redistribute these audio files in your
+World of Warcraft addon, including through CurseForge and Wago, for commercial
+or non-commercial purposes.
+
+As between the user and OpenAI, and to the extent permitted by applicable law,
+the user owns the generated output under the OpenAI Europe Terms of Use. OpenAI
+assigns to the user its right, title, and interest, if any, in that output:
+https://openai.com/policies/eu-terms-of-use/
+
+The spoken clips were synthesized using Piper. The two selected voice models
+were trained from scratch on public-domain LibriVox recordings:
+
+  en_GB-cori-medium model card:
+  https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_GB/cori/medium/MODEL_CARD
+
+  en_US-norman-medium model card:
+  https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/MODEL_CARD
+
+The Piper software is MIT-licensed. The software and voice models are not
+included in this sound pack. The three non-voice effects were synthesized
+procedurally and contain no third-party audio samples.
+
+No attribution is required for the public-domain voice datasets or the
+procedurally generated effects. The optional credit in CREDITS.txt is provided
+only for transparency.
+
+This notice records the generation sources and redistribution permission; it
+is not legal advice. The files are provided without warranty.

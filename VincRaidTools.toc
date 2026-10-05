@@ -1,0 +1,77 @@
+## Interface: 120100, 120105
+## Title: Vincibility Raid Tools
+## Notes: Raid notes, boss maps, reminders, assignments, group layouts, ready checks and aura call-outs.
+## Author: Earthenmist
+## Version: 1.0.0-Beta.1
+## Category: Dungeons & Raids
+## IconTexture: Interface\AddOns\VincRaidTools\Media\VincibilityCrest
+
+## X-Curse-Project-ID: 1727882
+## X-Wago-ID: YK9xo36L
+## SavedVariables: VincibilityRaidToolsDB
+## OptionalDeps: DBM-Core, BigWigs
+
+# Libraries
+Libs/LibStub/LibStub.lua
+Libs/LibDurability/LibDurability.lua
+Libs/LibLatency/LibLatency.lua
+
+# Core
+Core/Identity.lua
+Core/Modules.lua
+
+# Raid tools
+Raid/Tanks.lua
+Raid/GroupLayouts.lua
+Raid/ReadyCheck.lua
+Raid/ReadyCheckOverview.lua
+Raid/ReadyCheckPersonal.lua
+Raid/ReadyCheckReport.lua
+Raid/ReadyCheckConsumables.lua
+Raid/Break.lua
+Raid/Invites.lua
+
+# Notes
+Notes/TextNotes.lua
+Notes/VisualNotes.lua
+Notes/TextNoteDisplay.lua
+
+# Reminders
+Reminders/Reminders.lua
+Reminders/ReminderProviders.lua
+Reminders/ReminderDisplay.lua
+Reminders/ReminderSharing.lua
+Reminders/RemindersUI.lua
+
+# Assignments
+Assignments/Assignments.lua
+Assignments/Timelines.lua
+Assignments/Cooldowns.lua
+Assignments/Roster.lua
+Assignments/Runtime.lua
+Assignments/PlanShare.lua
+Assignments/Overview.lua
+Assignments/Signups.lua
+Assignments/AssignmentsUI.lua
+
+# Auras
+Auras/Auras.lua
+Auras/AuraDefaults.lua
+Auras/AuraDisplays.lua
+Auras/AurasUI.lua
+
+# Visual notes and note sharing (after Reminders, which provides the sharing codec)
+Notes/VisualNotesNative.lua
+Notes/VisualNoteSharing.lua
+Notes/TextNoteSharing.lua
+
+# Sync and backups
+Sync/IBLT.lua
+Sync/Sync.lua
+Sync/Backup.lua
+
+# Interface
+UI/GuildCrest.lua
+UI/MainUI.lua
+UI/Panel.lua
+UI/MinimapButton.lua

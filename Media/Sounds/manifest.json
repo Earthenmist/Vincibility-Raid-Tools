@@ -1,0 +1,101 @@
+{
+  "source": "MRT/media/Sounds (copied 2026-10-02); public-release review 2026-10-04 kept only files with their own licence for redistribution",
+  "permission": "Each remaining file is covered by its own licence (CC0 or CC BY 3.0 with credit); MRT permission is not relied on",
+  "files": [
+    {
+      "path": "AirHorn.ogg",
+      "bytes": 15159,
+      "sha256": "1e51b4be8e35e4bd99ecb82e4b056005f074f195490fa2cf75d206f450536f5e"
+    },
+    {
+      "path": "Applause.ogg",
+      "bytes": 19626,
+      "sha256": "c5c8449bdfc45d9f213e0b5778ba53c34897c4276d84ffbda919d8bf44b09948"
+    },
+    {
+      "path": "CatMeow2.ogg",
+      "bytes": 10488,
+      "sha256": "b56fc3541563c2dafd2bb2b094c81ae991f32e0e16307cb43df615b9da0e27c0"
+    },
+    {
+      "path": "Creative Commons - Attribution 3.0.txt",
+      "bytes": 18644,
+      "sha256": "600ae522739d7e0c989eb5e66757d876a60704192719f2f5d5ba8908ab4588c4"
+    },
+    {
+      "path": "David/1.ogg",
+      "bytes": 12841,
+      "sha256": "8ad9f4e987156d661f8eb123b06ff3415796de82001a33083cd1460565504ef0"
+    },
+    {
+      "path": "David/2.ogg",
+      "bytes": 12117,
+      "sha256": "c1a8a74bb8f371822819d4c9d45ce558bd5dab5090d2c5b2e276e147d348261f"
+    },
+    {
+      "path": "David/3.ogg",
+      "bytes": 11994,
+      "sha256": "db3f5b69e158f9b65cfa7bd83fe691cb5e27c413418144cff3423e465dd954bb"
+    },
+    {
+      "path": "David/4.ogg",
+      "bytes": 11025,
+      "sha256": "4bf23ce675ba463ef2fcfe883eb0459ad9f064d286130bff831fc4c561ec2dea"
+    },
+    {
+      "path": "David/5.ogg",
+      "bytes": 11342,
+      "sha256": "9f1a1c77eb10bfa2101e5e0e7df37245a595a4bcf4a0f12e46beb92cb6e3c810"
+    },
+    {
+      "path": "David/license.txt",
+      "bytes": 287,
+      "sha256": "215488641bc86b004b2a6e453e8b96f36dbbfd581c6dea4f18f4eca7f6e79a44"
+    },
+    {
+      "path": "Jim/1.ogg",
+      "bytes": 10197,
+      "sha256": "1a5316b175b947cea4d5ec657d5a54373a2c2a398de687cd9cd49d6ba4d1e170"
+    },
+    {
+      "path": "Jim/2.ogg",
+      "bytes": 9001,
+      "sha256": "482fef96741749f7e8b168d662490eec1e0d141889da6217e76ac503f8234504"
+    },
+    {
+      "path": "Jim/3.ogg",
+      "bytes": 10030,
+      "sha256": "7d6d42a839dbb2d3809651ce257be059c6c54194e9970fcab56cf2b3ba452623"
+    },
+    {
+      "path": "Jim/4.ogg",
+      "bytes": 10585,
+      "sha256": "4cecbaec6938d30a6fd8572b9e231e8fc8edd1fc2335d71c107ecc500779a29c"
+    },
+    {
+      "path": "Jim/5.ogg",
+      "bytes": 10547,
+      "sha256": "ea85163ef62c4ac4fef4606cbbd82a98724df8cd0b2ae7ee2858268f5bcf7147"
+    },
+    {
+      "path": "Jim/license.txt",
+      "bytes": 287,
+      "sha256": "f07f6219ddf77c3bf03faea6e909c3bea37aeb119fac762cd518ada590f5ed16"
+    },
+    {
+      "path": "KittenMeow.ogg",
+      "bytes": 5695,
+      "sha256": "8228dd735bb3cf348ad50904b09fd1c7c1446df8bafaf57cfec3419b3f9641f5"
+    },
+    {
+      "path": "Provided by.txt",
+      "bytes": 506,
+      "sha256": "48614ea305de2203f2bf269efacdb0e690fec7a60120fae246cb5d9803510bc1"
+    },
+    {
+      "path": "RingingPhone.ogg",
+      "bytes": 16459,
+      "sha256": "848ec6111bd861a3aea4c2591cdce07f1f744264c3332ef9b25460955e94de93"
+    }
+  ]
+}

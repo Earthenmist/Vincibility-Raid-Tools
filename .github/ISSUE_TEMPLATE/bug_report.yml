@@ -1,0 +1,122 @@
+name: Bug Report
+description: Report a bug or unexpected behavior.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue!
+
+        Please include as much detail as you can. The more complete this is, the faster it gets fixed.
+
+        Please do not include other players' names, guild rosters or your SavedVariables file.
+
+  - type: input
+    id: version
+    attributes:
+      label: Addon Version
+      description: The version shown at the top of Settings in /vincui, or in the AddOns list.
+      placeholder: e.g. 1.0.0-Beta.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bossmod
+    attributes:
+      label: Boss mod
+      description: Which boss mod were you using?
+      options:
+        - DBM
+        - BigWigs
+        - Both
+        - None (Blizzard boss warnings only)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of Vincibility Raid Tools is affected?
+      options:
+        - Notes
+        - Visual Notes
+        - Reminders
+        - Assignments
+        - Groups / raid invites
+        - Ready Check
+        - Auras
+        - Raid panel
+        - Sync / Versions
+        - Backup & Restore
+        - Settings / other
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem in plain language.
+      placeholder: e.g. When I click Test pull on Assignments, the leader view opens empty.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Tell us how to reproduce the issue.
+      placeholder: |
+        1. Open /vincui assignments
+        2. Choose a boss with assignments
+        3. Click Test pull
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: e.g. The leader view lists the upcoming assignments.
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: e.g. The leader view is empty and a Lua error appears.
+    validations:
+      required: false
+
+  - type: textarea
+    id: errors
+    attributes:
+      label: Lua errors / stack trace (if any)
+      description: Paste the FULL error here. Please do not screenshot errors unless you absolutely have to.
+      render: text
+      placeholder: |
+        1x VincRaidTools/File.lua:123: attempt to index field 'x' (a nil value)
+        [VincRaidTools/File.lua]:123: in function <VincRaidTools/File.lua:120>
+        ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: other_addons
+    attributes:
+      label: Other addons installed (important)
+      description: If you suspect a conflict, list any major UI or raid addons (ElvUI, WeakAuras, MRT, Northern Sky Raid Tools, etc.)
+      placeholder: e.g. ElvUI, WeakAuras, DBM
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra notes / screenshots
+      description: Add anything else that might help.
+    validations:
+      required: false
